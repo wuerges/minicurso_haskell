@@ -1,0 +1,37 @@
+
+> Maioria das novas linguagens so' tem 1 usuario, e depois morre.
+
+> As linguagens bem sucedidas chegam a uns 100 usuarios, e morrem.
+
+> Algumas linguagens se tornam imortais, por causa da quantidade de usuarios.
+
+> Linguagens academicas ficam sempre no 0.
+
+> Haskell e' uma linguagem academica, mas teve um renascimento.
+
+> Implementar filter
+
+filter :: (a -> Bool) -> [a] -> [a]
+filter p [] = []
+filter p (x:xs) 
+    | p x       = x : filter p xs
+    | otherwise = filter ps xs
+
+
+> Ressaltar;
+>> Type signature
+>> Higher order function
+>> Polymorphism (works for any a)
+
+
+
+> Implementar member
+
+member :: a -> [a] -> Bool
+member x []                 = False
+member x (y:ys) | x == y    = True
+                | otherwise = member x ys
+
+> Funciona pra QUALQUER TIPO a???
+
+
