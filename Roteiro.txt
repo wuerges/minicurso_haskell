@@ -35,3 +35,30 @@ member x (y:ys) | x == y    = True
 > Funciona pra QUALQUER TIPO a???
 
 
+
+
+2 + 2
+3 / 2
+2 * (-4)
+
+3 ^ (19 * 19)
+
+True && False
+True || False
+
+not True
+
+3 == 4
+3 /= 4
+
+max 3 5 * 2
+(3 `max` 5) * 2
+
+fac = ?
+fib = ? 
+
+ns = [1, 2, 3]
+ns2 = [1..3]
+
+
+
