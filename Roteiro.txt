@@ -61,4 +61,8 @@ ns = [1, 2, 3]
 ns2 = [1..3]
 
 
+increasing :: (Ord a) => [a] -> Bool
+noVowels :: String -> String 
+
+
 
